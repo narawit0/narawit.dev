@@ -85,7 +85,6 @@ export const darkTheme = {
 };
 
 const setThemeVars = (lightVar, darkVar) => {
-    console.log(theme.current)
     return theme.current === "light" ? lightVar : darkVar
 }
 
